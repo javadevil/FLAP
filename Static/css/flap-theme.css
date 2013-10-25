@@ -1,0 +1,49 @@
+body {
+  padding-top: 50px;
+}
+.affix {
+  width: inherit; //helped keep the content the same size on fluid layouts
+  position: fixed;
+  top: 50px;  //height of the nav
+}
+.affix-bottom {
+  width: inherit;
+  position: absolute;
+  top: auto;
+  bottom: 200px;  //height of the footer
+}
+.affix-top {
+  //i didn't need this style but you might
+}
+#sidebar li{
+  border-bottom:solid 1px #CCC;
+}
+
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint{
+	padding-left:11px;
+	padding-top:5px;
+	background-color:#e6e6e6;
+}
+.twitter-typeahead .tt-dropdown-menu{
+	min-width: 240px;
+	margin-top: 2px;
+	border:1px solid #CCC;
+	padding-left:10px;
+	padding-right:34px;
+	padding-top:7px;
+	padding-bottom:7px;
+	background-color:#FFF;
+}
+.tt-suggestion {
+  	display: block;
+  	padding: 3px 20px;
+	border-bottom:1px solid #CCC;
+}
+.tt-suggestion.tt-is-under-cursor {
+  color: #FFF;
+  background-color: #CCC;
+}
+.tt-suggestion.tt-is-under-cursor a {
+  color: #FFF;
+}
